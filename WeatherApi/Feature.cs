@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace WeatherApi
 {
-    public static class Features
+    public static class Feature
     {
         public const string Promotions = "Promotion";
         public const string PromotionDiscounts = "Promotion.Discounts";

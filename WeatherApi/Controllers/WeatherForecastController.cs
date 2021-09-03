@@ -37,7 +37,7 @@ namespace WeatherApi.Controllers
         }
 
         [HttpGet("K")]
-        [FeatureGate(Features.Beta)] // Beta feature flag must be enabled --- [FeatureGate(FeatureFlags.Beta)] // Beta feature flag must be enabled
+        [FeatureGate(Feature.Beta)] // Beta feature flag must be enabled --- [FeatureGate(FeatureFlags.Beta)] // Beta feature flag must be enabled
         public IEnumerable<WeatherForecastWithKelvin> GetWithKelvin()
         {
             var rng = new Random();
